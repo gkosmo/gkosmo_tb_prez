@@ -34,7 +34,7 @@ body {
   top: 99999px;
   transform-origin: 50% 100%;
   animation: crawl 500s ease-in;
-  animation-duration: 20s;
+  animation-duration: 30s;
 }
 
 .crawl > .title {
@@ -53,7 +53,7 @@ body {
     transform: rotateX(20deg)  translateZ(0);
   }
 	100% { 
-    top: -6000px;
+    top: -6800px;
     transform: rotateX(25deg) translateZ(-2500px);
   }
 }
