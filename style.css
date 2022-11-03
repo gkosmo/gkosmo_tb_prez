@@ -8,7 +8,7 @@ body {
 .fade {
   position: relative;
   width: 100%;
-  min-height: 60vh;
+  min-height: 70vh;
   top: -25px;
   background-image: linear-gradient(0deg, transparent, black 75%);
   z-index: 1;
@@ -33,7 +33,8 @@ body {
   position: relative;
   top: 99999px;
   transform-origin: 50% 100%;
-  animation: crawl 350s ease-in;
+  animation: crawl 400s ease-in;
+  animation-duration: 20s;
 }
 
 .crawl > .title {
